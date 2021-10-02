@@ -1,8 +1,9 @@
 # apitests_junit5_restassured
 
-API Automation test for Pet Store APIs
+API Automation test for Pet Store APIs. 
+Swagger Url of the API - https://petstore3.swagger.io/
 
-## Technology Stack Used
+### Technology Stack Used
 
 * Build/Run Tool - Maven
 * Test run framework - Junit 5
@@ -33,3 +34,15 @@ Results of Tests run can be viewed in any of the below:
 
 * JUnit Test Run window in IntelliJ
 * Maven console logs
+
+## CircleCI Integration
+
+GitHub project for the solution is integrated with CircleCI
+
+* Configuration file is located [here][8]
+* This configuration is to checkout the project, build, test and upload test results in CircleCI
+* CircleCI Project: [pet-store-test][9]
+
+[8]:.circleci/config.yml
+
+[9]:https://app.circleci.com/pipelines/github/shilesh-r/pet-store-test
